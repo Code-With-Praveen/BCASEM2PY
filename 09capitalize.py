@@ -1,0 +1,5 @@
+string = input("Enter a string : ")
+words = string.split()
+new_string = " ".join([word.capitalize() for word in words])
+print("Original string: ", string)
+print("Capitalized string: ", new_string)
